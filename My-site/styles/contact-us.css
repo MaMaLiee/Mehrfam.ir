@@ -1,0 +1,194 @@
+.main-hero1 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../media/0d02b541-6689-4103-a101-74617678da71.png) center/cover
+      no-repeat fixed;
+  min-height: 100vh;
+  border-top: 5px solid #3a6480;
+  border-bottom: 5px solid #3a6480;
+  padding: 40px 10%;
+}
+
+.title {
+  width: fit-content;
+  margin: 50px auto;
+  color: white;
+  text-shadow: 0 0 5px #34f505;
+  padding: 10px 20px;
+}
+
+.support-hero {
+  border-left: 2px solid #34f505;
+  border-right: 2px solid #34f505;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.support-title {
+  text-align: center;
+}
+.support-subtitle {
+  text-align: center;
+  color: gold;
+  text-shadow: 0 0 3px black;
+  padding-bottom: 10px;
+}
+
+.us-description {
+  border: 2px solid #3a6480;
+  border-radius: 15px;
+  justify-content: space-between;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  background-color: #3a648054;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.section-text {
+  border: 2px solid gold;
+  border-radius: 25px;
+  padding: 25px;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.support-list {
+  list-style-type: none;
+  border: 2px solid gold;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 25px;
+  backdrop-filter: blur(15px);
+}
+
+.item-title {
+  color: #34f505;
+}
+
+.contact-card {
+  list-style-type: none;
+  border: 2px solid gold;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 25px;
+  backdrop-filter: blur(15px);
+  margin: 20px;
+}
+
+.contact-link{
+  color: #34f505;
+  /* border: 2px solid gold;
+  border-radius: 25px; */
+}
+
+.cta-text{
+  text-align: center;
+  color: gold;
+}
+
+.cta-text1{
+  color: #34f505;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.address-btn:visited{
+    color: #34f505;
+}
+
+.support-item {
+  padding: 25px;
+}
+
+.contact {
+  width: fit-content;
+  margin: 50px auto;
+  color: white;
+  text-shadow: 0 0 5px #34f505;
+  padding: 10px 20px;
+}
+
+.email-btn {
+  display: block;
+  width: fit-content;
+
+  margin: 20px auto;
+
+  padding: 10px 20px;
+  background: #34f505;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.phone-btn {
+  display: block;
+  width: fit-content;
+
+  margin: 20px auto;
+
+  padding: 10px 20px;
+
+  color: #34f505;
+  text-decoration: none;
+
+  border: 2px solid #34f505;
+  border-radius: 15px;
+
+  backdrop-filter: blur(10px);
+
+  transition: 0.3s;
+}
+
+.phone-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(52, 245, 5, 0.5);
+}
+
+.address-btn {
+  display: block;
+  width: fit-content;
+
+  margin: 20px auto;
+  padding: 12px 24px;
+
+  color: #34f505;
+  text-decoration: none;
+  font-family: "font-man3";
+
+  border: 2px solid #34f505;
+  border-radius: 15px;
+
+  background: rgba(5, 26, 41, 0.4);
+  backdrop-filter: blur(10px);
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 0 10px rgba(52, 245, 5, 0.3);
+}
+
+.address-btn:hover {
+  transform: translateY(-5px);
+
+  background: rgba(52, 245, 5, 0.1);
+
+  box-shadow:
+    0 0 15px rgba(52, 245, 5, 0.6),
+    0 0 30px rgba(52, 245, 5, 0.2);
+}
